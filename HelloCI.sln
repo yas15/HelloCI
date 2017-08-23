@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Web", "src\app\HelloCI.Web\HelloCI.Web.csproj", "{83F45377-6408-4DD4-AC1C-54427545A9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Tests", "src\test\HelloCI.Tests\HelloCI.Tests.csproj", "{0872DCAB-ACB2-4119-A906-DA2B2766C61D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Core", "src\app\HelloCI.Core\HelloCI.Core.csproj", "{EBCB5523-4B8F-4443-9128-0B4038F8EA30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83F45377-6408-4DD4-AC1C-54427545A9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F45377-6408-4DD4-AC1C-54427545A9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F45377-6408-4DD4-AC1C-54427545A9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F45377-6408-4DD4-AC1C-54427545A9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0872DCAB-ACB2-4119-A906-DA2B2766C61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0872DCAB-ACB2-4119-A906-DA2B2766C61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0872DCAB-ACB2-4119-A906-DA2B2766C61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0872DCAB-ACB2-4119-A906-DA2B2766C61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCB5523-4B8F-4443-9128-0B4038F8EA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCB5523-4B8F-4443-9128-0B4038F8EA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCB5523-4B8F-4443-9128-0B4038F8EA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCB5523-4B8F-4443-9128-0B4038F8EA30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
