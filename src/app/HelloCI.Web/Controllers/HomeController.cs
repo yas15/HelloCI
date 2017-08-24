@@ -11,7 +11,6 @@ namespace HelloCI.Web.Controllers
         public ActionResult Index()
         {
             return View();
-            var abc_1 = 'a';
         }
 
         public ActionResult About()
