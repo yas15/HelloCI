@@ -10,6 +10,8 @@ namespace HelloCI.Web.Controllers
     {
         public ActionResult Index()
         {
+            //random comment
+            int x = 5;
             return View();
         }
 
